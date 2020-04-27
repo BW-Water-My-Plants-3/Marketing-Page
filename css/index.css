@@ -132,11 +132,48 @@ table {
 }
 #header-container nav {
   display: flex;
+  align-items: center;
   background-color: #333;
   justify-content: space-evenly;
+  height: 40px;
 }
 #header-container nav a {
   justify-content: space-evenly;
   text-decoration: none;
   color: white;
+}
+#main-photo {
+  width: 100%;
+}
+#info-container {
+  width: 100%;
+}
+#info-container .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#main-content {
+  text-align: center;
+  font-size: 5rem;
+}
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  margin-left: 23%;
+  width: 70%;
+}
+#wrapper .developer {
+  width: 35%;
+}
+#wrapper h2 {
+  font-size: 30px;
+}
+#wrapper img {
+  border-radius: 200px;
+  height: 130px;
 }
