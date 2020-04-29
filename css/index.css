@@ -123,54 +123,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@media (max-width: 500px) {
-  #header-container #navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 135px;
-  }
-  #header-container #navigation #navlinks {
-    margin-top: 4%;
-  }
-  #main-photo {
-    visibility: hidden;
-  }
-  #banner {
-    visibility: hidden;
-  }
-  #icontext {
-    text-align: center;
-    margin-left: 32%;
-  }
-  #headerimgdiv {
-    height: 0;
-    width: 0;
-  }
-  #signup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  #signup #wateringimg {
-    height: 5%;
-    width: 90%;
-  }
-  #signup #cardtext h1 {
-    font-size: 18px;
-  }
-  #signup #cardtext p {
-    font-size: 18px;
-  }
-  #signup #cardtext #signupbtn {
-    height: 35px;
-    width: 75px;
-    font-size: 15px;
-    margin-bottom: 20px;
-  }
-}
 #header-container {
   width: 100%;
 }
@@ -199,6 +151,36 @@ table {
   text-decoration: none;
   color: white;
   font-family: "El Messiri";
+}
+@media (max-width: 500px) {
+  #header-container #navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 135px;
+  }
+  #header-container #navigation #company-logo {
+    height: 0px;
+    width: 0px;
+  }
+  #header-container #navigation #icontext {
+    margin-left: 17%;
+    text-align: center;
+  }
+  #header-container #navigation #navlinks {
+    margin-top: 4%;
+  }
+  #header-container #navigation #banner {
+    visibility: hidden;
+  }
+  #header-container #headerimgdiv {
+    height: 0;
+    width: 0;
+  }
+  #header-container #headerimgdiv #main-photo {
+    visibility: hidden;
+  }
 }
 #main-photo {
   background-size: cover;
@@ -272,6 +254,30 @@ table {
   width: 150px;
   font-size: 25px;
 }
+@media (max-width: 500px) {
+  #signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #signup #wateringimg {
+    height: 3%;
+    width: 90%;
+  }
+  #signup #cardtext h1 {
+    font-size: 18px;
+  }
+  #signup #cardtext p {
+    font-size: 18px;
+  }
+  #signup #cardtext #signupbtn {
+    height: 35px;
+    width: 75px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
 footer {
   text-align: center;
   background-color: #333;
@@ -280,18 +286,24 @@ footer {
 #main-content {
   text-align: center;
   font-size: 5rem;
+  font-family: "Lobster";
 }
 #wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  vertical-align: middle;
-  margin-left: 23%;
+  margin-left: 30%;
   width: 70%;
 }
+@media (max-width: 500px) {
+  #wrapper {
+    width: 70%;
+    margin-left: 18%;
+  }
+}
 #wrapper .developer {
-  width: 35%;
+  width: 50%;
 }
 #wrapper h2 {
   font-size: 30px;
