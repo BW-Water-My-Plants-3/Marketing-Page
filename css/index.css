@@ -205,9 +205,12 @@ table {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  height: 30rem;
+  height: 25rem;
   width: 100%;
   text-align: center;
+}
+#info-container .section-info {
+  width: 33.33%;
 }
 #info-container .icon {
   height: 100px;
@@ -236,6 +239,12 @@ table {
   margin: 1% 1% 1% 1%;
   border-radius: 8px;
 }
+#signup #wateringimg:hover {
+  color: #97AD4B;
+  box-shadow: -3px 0 #97AD4B, 0 3px #97AD4B, 3px 0 #97AD4B, 0 -3px #97AD4B;
+  opacity: 85%;
+  transition: 2s;
+}
 #signup h1 {
   margin-top: 2%;
   font-size: 30px;
@@ -248,11 +257,17 @@ table {
 #signup #signupbtn {
   margin-top: 5%;
   border-radius: 5px;
-  background-color: #25da37;
+  background-color: #97AD4B;
   color: white;
   height: 55px;
   width: 150px;
+  border: 1px #97AD4B solid;
   font-size: 25px;
+}
+#signup #signupbtn:hover {
+  background-color: white;
+  transition: 2s;
+  color: #97AD4B;
 }
 @media (max-width: 500px) {
   #signup {
@@ -293,7 +308,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 30%;
+  margin-left: 25%;
   width: 70%;
 }
 @media (max-width: 500px) {
@@ -305,8 +320,17 @@ footer {
 #wrapper .developer {
   width: 50%;
 }
-#wrapper h2 {
+#wrapper .developer h2 {
   font-size: 30px;
+  font-family: "Lobster";
+}
+#wrapper .developer p {
+  font-family: "El Messiri";
+}
+#wrapper .developer img:hover {
+  box-shadow: -3px 0 #97AD4B, 0 3px #97AD4B, 3px 0 #97AD4B, 0 -3px #97AD4B;
+  opacity: 85%;
+  transition: 2s;
 }
 #wrapper img {
   border-radius: 200px;
