@@ -1,6 +1,5 @@
 #header-container{
     width: 100%;
-    
     #company-logo{
         .dims(200px, 200px);
         margin-right: 20%;
@@ -35,7 +34,41 @@
        
     }
 }
+@media (max-width: 500px){
+    #header-container {
+        #navigation {
+            .flexbox(center, center);
+                flex-direction: column;
+                height: 135px;
+        
+             #company-logo {
+                .dims(0px, 0px);
+            } 
 
+            #icontext{
+                 margin-left: 17%;
+                 text-align: center;
+            }  
+         
+            #navlinks {
+                margin-top: 4%;
+            }   
+            
+            #banner {
+                visibility: hidden;
+              }
+        
+        
+        }
+        #headerimgdiv {
+            height: 0;
+            width: 0;
+            #main-photo{
+                visibility: hidden;
+          }
+        }  
+    }
+}
 
 
 

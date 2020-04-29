@@ -1,7 +1,4 @@
 
-
-
-
 #main-photo {
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,7 +77,36 @@
         font-size: 25px;
     }
 }
+    @media(max-width:500px){
+    #signup {
+        .flexbox(center, center);
+        flex-direction: column;
+    
+      #wateringimg{
+            .dims(3%, 90%);
+        } 
+      #cardtext {
+          h1 {
+              font-size: 18px;
+              
+            }
+      
+          p {
+              font-size: 18px;
+              
+            }
+  
+          #signupbtn{
+              .dims(35px, 75px);
+              font-size: 15px;
+              margin-bottom: 20px;
+            }
+        }
+      
+      }
 
+ 
+}
 
 footer {
     text-align: center;
@@ -92,6 +118,7 @@ footer {
 #main-content {
     text-align: center;
     font-size: 5rem;
+    font-family: "Lobster";
     
 
 }
@@ -100,13 +127,19 @@ footer {
 #wrapper {
     .flexbox(center, center);
     flex-wrap: wrap;
-    vertical-align: middle;
-    margin-left: 23%;
+    margin-left: 30%;
     width: 70%;
+
+    @media(max-width: 500px){ 
+        width: 70%;
+        margin-left: 18%;
+    }
+
 
 
     .developer {
-        width: 35%;
+        width: 50%;
+        
     }
 
     h2 {
@@ -118,5 +151,4 @@ footer {
         height: 130px;
     }
 }
-
 
