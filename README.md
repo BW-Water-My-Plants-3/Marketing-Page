@@ -5,6 +5,8 @@ https://www.notion.so/c58fb94221ed4de08695798bf4e81b27?v=1eb939e678ac4c43afa9cb8
 https://www.notion.so/f0d5eae2343044bea675e7c54832751b?v=fb611ca4f28646c8b491a766c5065e02   
 
 
+Desployed UI Sites: https://bw-water-my-plants-3.github.io/Marketing-Page/meetthedevs.html
+
 Proposal
 
 - What problem does your app solve?
