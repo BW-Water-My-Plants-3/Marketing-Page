@@ -194,7 +194,7 @@ table {
 }
 #banner {
   position: absolute;
-  margin-top: 22.2%;
+  margin-top: 22.01rem;
   height: 60px;
   width: 100%;
   background: #212121;
@@ -312,8 +312,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
-  margin-left: 5%;
+  width: 95%;
+  margin-left: 2%;
 }
 @media (max-width: 500px) {
   #wrapper {
@@ -327,8 +327,9 @@ footer {
 }
 #wrapper .developer {
   justify-content: space-evenly;
-  width: 16.66%;
+  width: 13.66%;
   text-align: left;
+  padding: 2px;
 }
 @media (max-width: 500px) {
   #wrapper .developer {
