@@ -314,6 +314,7 @@ footer {
   flex-wrap: wrap;
   width: 95%;
   margin-left: 2%;
+  align-items: flex-start;
 }
 @media (max-width: 500px) {
   #wrapper {
@@ -330,6 +331,10 @@ footer {
   width: 13.66%;
   text-align: left;
   padding: 2px;
+}
+#wrapper .developer h2 {
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 @media (max-width: 500px) {
   #wrapper .developer {
