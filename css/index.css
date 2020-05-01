@@ -203,6 +203,7 @@ table {
   text-align: center;
   font-size: 30px;
   font-family: "Lobster";
+  vertical-align: middle;
 }
 #info-container {
   display: flex;
