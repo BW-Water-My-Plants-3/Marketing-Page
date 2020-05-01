@@ -63,8 +63,8 @@
     }
 
     #wateringimg:hover{
-        color: #97AD4B;
-        box-shadow: -3px 0 #97AD4B, 0 3px #97AD4B, 3px 0 #97AD4B, 0 -3px #97AD4B;
+        color: @green;
+        box-shadow: -3px 0 @gren, 0 3px @green, 3px 0 @green, 0 -3px @green;
         opacity: 85%; 
         transition: 2s;
     }
@@ -82,10 +82,10 @@
     #signupbtn {
         margin-top: 5%;
         border-radius: 5px;
-        background-color:#97AD4B;
+        background-color: @green;
         color: white;
         .dims(55px, 150px);
-        border: 1px #97AD4B solid;
+        border: 1px @green solid;
         font-size: 25px;
     }
 
@@ -94,7 +94,7 @@
      #signupbtn:hover {
         background-color: white;
         transition: 2s;
-        color: #97AD4B;
+        color: @green;
      }
 }
     @media(max-width:500px){
@@ -195,7 +195,7 @@ footer {
         }
     
         img:hover {
-            box-shadow: -3px 0 #97AD4B, 0 3px #97AD4B, 3px 0 #97AD4B, 0 -3px #97AD4B;
+            box-shadow: -3px 0 @green, 0 3px @green, 3px 0 @green, 0 -3px @green;
             opacity: 85%; 
             transition: 2s;
         }
